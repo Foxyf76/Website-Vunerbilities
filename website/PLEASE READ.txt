@@ -1,0 +1,20 @@
+INDEX:
+
+1.a) login_POST.php
+1.a) welcome_POST.php
+1.b) login_GET.php
+1.b) welcome_GET.php
+2) access_DB.php
+2) databaseLogin.php
+3) html_security.php
+4) validation.php
+5) cookies.php
+
+XSS Script Used:
+<script type="text/javascript">window.location = 'http://facebook.com/';</script>
+
+
+
+SQL Injections Used:
+1) junk' or '1'='1
+2) '; DROP TABLE loginDetails; -- 
